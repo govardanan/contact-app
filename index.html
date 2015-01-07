@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contacts</title>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1,width=device-width" />
+
+<meta charset="utf-8"/>
+
+
+<link rel="stylesheet" href="css/one.css" />
+<!--javascript source for jquery and jquery-mobile-->
+<script src="js/one.js"></script>
+<script src="js/two.js"></script>
+
+<script src="cordova.js"></script>
+
+<script src="js/cont.js"></script>
+
+
+</head>
+
+<body>
+
+
+<!--  home page  -->
+<div data-role="page" id="home">
+<div data-role="header" id="head" data-theme="b" data-position="fixed" data-tap-toggle="false">
+<h2 style="position:relative">Contacts</h2>
+ 
+
+</div>
+
+<div data-role="content" data-theme="a">
+
+<ul id="lst" data-role="listview"></ul>
+
+</div>
+
+<div data-role="footer" id="footer" data-position="fixed" data-theme="b" data-tap-toggle="false">
+<h1>&copy;CopyRights Reserved</h1>
+
+</div>
+
+</div>
+
+
+<!--page two-->
+<div data-role="page" id="display">
+<div data-role="header" id="head" data-theme="b" data-position="fixed" data-tap-toggle="false">
+<h2 style="position:relative">Contact Details</h2>
+<a href="#" class="ui-btn ui-icon-back ui-btn-icon-left" data-rel="back" data-role="button">Back</a>  
+
+</div>
+
+<div data-role="content" data-theme="a">
+
+<div id="samp"></div>
+
+</div>
+
+<div data-role="footer" id="footer" data-position="fixed" data-theme="b" data-tap-toggle="false">
+<h1>&copy;CopyRights Reserved</h1>
+
+</div>
+
+</div>
+
+
+</body>
+</html>
